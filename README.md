@@ -82,15 +82,12 @@ curl -X POST http://localhost:8082/decrypt \
 
 ---
 
-## 🧪 TODO / Pengembangan Selanjutnya
+## 🧪 For ?
 
-- [ ] Integrasi dengan message broker (contoh: NATS atau Kafka)
-- [ ] Validasi user dan penyimpanan user di database
-- [ ] Rate limiting dan monitoring
-- [ ] CI/CD pipeline
+- [ ] Matakuliah Distributed System
 
 ---
 
 ## 📝 Lisensi
 
-MIT License © 2025
+Universitas Sugeng Hartono License © 2025
