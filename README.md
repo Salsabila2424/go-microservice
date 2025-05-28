@@ -82,7 +82,7 @@ curl -X POST http://localhost:8082/decrypt \
 
 ---
 
-## 🧪 For ?
+## 🧪 For
 
 - [ ] Matakuliah Distributed System
 
