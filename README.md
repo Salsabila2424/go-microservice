@@ -1,5 +1,4 @@
-# 🧩 Go Microservices, wibowo, aris, dhani, yosep
-// <?php echo 'wibowo'; ?>
+# 🧩 Go Microservices
 
 Repositori ini merupakan implementasi arsitektur **microservices** menggunakan bahasa **Go (Golang)**. Sistem terdiri dari dua layanan utama:
 
