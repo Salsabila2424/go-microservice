@@ -55,6 +55,9 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintln(w, "Welcome to Authentication Service")
+	})
 	http.HandleFunc("/login", loginHandler)
 	fmt.Println("Authentication service is running on port 8081...")
 	log.Fatal(http.ListenAndServe(":8081", nil))
