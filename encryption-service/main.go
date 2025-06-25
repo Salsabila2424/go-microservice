@@ -150,6 +150,9 @@ func decryptHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintln(w, "Welcome to Encription Service")
+	})
 	http.HandleFunc("/encrypt", authMiddleware(encryptHandler))
 	http.HandleFunc("/decrypt", authMiddleware(decryptHandler))
 	fmt.Println("Encryption service is running on port 8082...")
